@@ -24,7 +24,7 @@ Practical SQL case studies from the [8-Week SQL Challenge](https://8weeksqlchall
 | 🧺 **Data Mart** | Weekly sales and revenue reporting using advanced CTEs. | PostgreSQL |
 | 🧃 **Fresh Segments** | Marketing segmentation and customer retention analysis. | PostgreSQL |
 
-> 📁 Full SQL solutions are available in my **[SQL Challenges Repo](<add-your-sql-repo-link-here>)**
+> 📁 Full SQL solutions are available in my **[SQL Challenges Repo](https://github.com/deedeepratiwi/8-week-sql-challenge)**
 
 ---
 
@@ -54,7 +54,7 @@ Interactive data visualizations and KPI dashboards published on Tableau Public.
 | 💰 **Retail Sales Performance** | Product sales, profit margins, and regional revenue insights. | ![Retail Dashboard](images/retail-dashboard.png) |
 | 🌊 **Maritime Traffic Trends** | Vessel routes, port activity, and shipping density heatmaps. | ![Maritime Dashboard](images/maritime-dashboard.png) |
 
-> 🔗 Explore all dashboards on [my Tableau Public profile](<add-your-tableau-public-link-here>)
+> 🔗 Explore all dashboards on [my Tableau Public profile](https://public.tableau.com/app/profile/diana.pratiwi/vizzes)
 
 ---
 
