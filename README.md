@@ -19,10 +19,10 @@ Practical SQL case studies from the [8-Week SQL Challenge](https://8weeksqlchall
 
 | Challenge | Description | Tools |
 |------------|--------------|-------|
-| 🍜 **Danny’s Diner** | Customer behavior analysis & loyalty program insights. | PostgreSQL |
-| 🍕 **Pizza Runner** | Delivery performance and order tracking with cleaning & transformation queries. | PostgreSQL |
-| 🧺 **Data Mart** | Weekly sales and revenue reporting using advanced CTEs. | PostgreSQL |
-| 🧃 **Fresh Segments** | Marketing segmentation and customer retention analysis. | PostgreSQL |
+| 🍜 **Danny’s Diner** | Customer behavior analysis & loyalty program insights. | MySQL |
+| 🍕 **Pizza Runner** | Delivery performance and order tracking with cleaning & transformation queries. | MySQL |
+| 🧺 **Data Mart** | Weekly sales and revenue reporting using advanced CTEs. | MySQL |
+| 🧃 **Fresh Segments** | Marketing segmentation and customer retention analysis. | MySQL |
 
 > 📁 Full SQL solutions are available in my **[SQL Challenges Repo](https://github.com/deedeepratiwi/8-week-sql-challenge)**
 
