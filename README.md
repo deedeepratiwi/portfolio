@@ -69,7 +69,7 @@ Interactive data visualizations and dashboards published on Tableau Public.
 
 - 🌋 **Indonesia Ring of Fire**
   
-  Visualizes the distribution and characteristics of Indonesia’s volcanoes — part of the Pacific “Ring of Fire.” Data was collected through a custom Python web scraper from Wikipedia, then cleaned in Microsoft Excel. Python code for web scraping can be found [here](https://github.com/deedeepratiwi/web-scraping-indonesia-volcano/blob/main/Web_Scraping_Indonesia_Volcano.ipynb).
+  Visualizes the distribution and characteristics of Indonesia’s volcanoes — part of the Pacific “Ring of Fire”. Data was collected through a custom Python web scraper from Wikipedia, then cleaned in Microsoft Excel. Python code for web scraping can be found [here](https://github.com/deedeepratiwi/web-scraping-indonesia-volcano/blob/main/Web_Scraping_Indonesia_Volcano.ipynb).
   
   ![Indonesia Ring of Fire](images/ring_of_fire.png)
   
