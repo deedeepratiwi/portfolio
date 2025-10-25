@@ -30,6 +30,8 @@ Practical SQL case studies from the [8-Week SQL Challenge](https://8weeksqlchall
 
 > 📁 Full SQL solutions are available in my **[SQL Challenges Repo](https://github.com/deedeepratiwi/8-week-sql-challenge)**
 
+🔝[Back to top](#-table-of-contents)
+
 ---
 
 ## 🐍 Python Projects
@@ -60,6 +62,8 @@ Each project folder includes code, notebooks, and documentation.
   Python code can be found [here](https://github.com/deedeepratiwi/mlops-hotel-cancellation).
 
 > 🧾 View all my Python repos [here on GitHub](https://github.com/deedeepratiwi?tab=repositories)
+
+🔝[Back to top](#-table-of-contents)
 
 ---
 
@@ -94,6 +98,8 @@ Interactive data visualizations and dashboards published on Tableau Public.
 
 
 > 🔗 Explore all dashboards on [my Tableau Public profile](https://public.tableau.com/app/profile/diana.pratiwi/vizzes)
+
+🔝[Back to top](#-table-of-contents)
 
 ---
 
