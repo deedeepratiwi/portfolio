@@ -21,8 +21,13 @@ Practical SQL case studies from the [8-Week SQL Challenge](https://8weeksqlchall
 |------------|--------------|-------|
 | 🍜 **Danny’s Diner** | Customer behavior analysis & loyalty program insights. | MySQL |
 | 🍕 **Pizza Runner** | Delivery performance and order tracking with cleaning & transformation queries. | MySQL |
+| 🥪 **Foodie-Fi** |  | MySQL |
+| 🏦 **Data Bank** |  | MySQL |
 | 🧺 **Data Mart** | Weekly sales and revenue reporting using advanced CTEs. | MySQL |
-| 🧃 **Fresh Segments** | Marketing segmentation and customer retention analysis. | MySQL |
+| 🦞 **Clique Bait** |  | MySQL |
+| 🥾 **Balanced Tree Clothing Co.** | | MySQL |
+| 🍊 **Fresh Segments** |  | MySQL |
+
 
 > 📁 Full SQL solutions are available in my **[SQL Challenges Repo](https://github.com/deedeepratiwi/8-week-sql-challenge)**
 
@@ -32,6 +37,17 @@ Practical SQL case studies from the [8-Week SQL Challenge](https://8weeksqlchall
 
 End-to-end data projects covering analytics, machine learning, and MLOps workflows.  
 Each project folder includes code, notebooks, and documentation.
+
+### Analytics
+- **Online Retail RFM Analysis**
+  [RFM Analysis](images/rfm_analysis.png)
+- **Seattle Public Library Cohort Analysis**
+  [SPL Cohort Analysis](images/spl_cohort_analysis.png)
+- **A/B Test Evaluation (Online Retail)**
+
+### Data Pipeline
+
+### Machine Learning
 
 | Project | Description | Tools |
 |----------|--------------|-------|
@@ -46,7 +62,16 @@ Each project folder includes code, notebooks, and documentation.
 
 ## 📈 Dashboards
 
-Interactive data visualizations and KPI dashboards published on Tableau Public.
+Interactive data visualizations and dashboards published on Tableau Public.
+- **Indonesia Ring of Fire**
+  ![Indonesia Ring of Fire](images/ring_of_fire.png)
+- **Maven Telecom Customer Churn Analysis**
+  ![Maven Telecom Customer Churn Analysis](images/telco_churn.png)
+- **Covid-19**
+  ![Covid-19](images/covid-19.png)
+- **Neflix**
+  ![Netflix](images/netflix.png)
+
 
 | Dashboard | Focus | Preview |
 |------------|--------|----------|
