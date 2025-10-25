@@ -6,10 +6,10 @@ My work spans **SQL analytics**, **Python data projects**, and **interactive das
 ---
 
 ## 🗂️ Table of Contents
-1. [SQL Analytics](#sql-analytics)
-2. [Python Projects](#python-projects)
-3. [Dashboards](#dashboards)
-4. [Contact](#contact)
+1. [SQL Analytics](#-sql-analytics)
+2. [Python Projects](#-python-projects)
+3. [Dashboards](#-dashboards)
+4. [Contact](#-contact)
 
 ---
 
