@@ -56,8 +56,11 @@ Each project folder includes code, notebooks, and documentation.
 - 🎵 **Spotify Audio Features**
 
   Analyzed patterns in music characteristics using the Spotify Tracks dataset to understand how audio features such as danceability, energy, and valence evolved across time. The raw CSV data was ingested into PostgreSQL using **Python** and then transformed using **dbt** to create clean, analytics-ready models. **Prefect** was used for workflow orchestration to ensure repeatable data pipelines. The insights were visualized in an interactive **Tableau** dashboard highlighting long-term feature trends and distribution patterns. The entire pipeline was containerized with Docker Compose for reproducible local development, demonstrating end-to-end analytics engineering skills without yet requiring cloud deployment.
+  Python code can be found [here](https://github.com/deedeepratiwi/spotify-analysis).
   
-   ![Spotify](images/spotify.png)
+  ![Data Pipeline](images/spotify_data_pipeline.jpg)
+  
+  ![Spotify](images/spotify.png)
   
 ### 🤖 Machine Learning
 - 🏨 **Hotel Booking Cancellation**
