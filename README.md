@@ -42,18 +42,20 @@ Each project folder includes code, notebooks, and documentation.
 ### 📈 Analytics
 - 🛒 **Online Retail RFM Analysis**
   
-  Analyzes customer purchasing behavior using RFM (Recency, Frequency, Monetary) scoring to identify high-value and at-risk customers and optimize marketing strategies. The dashboard highlights revenue distribution across segments, customer mix, and behavioral patterns through bar charts, pie charts, scatterplots, and a heatmap. Python code can be found [here](https://github.com/deedeepratiwi/retail-rfm-analysis/blob/main/rfm_analysis.ipynb).
+  Analyzes customer purchasing behavior using **RFM (Recency, Frequency, Monetary)** scoring to identify high-value and at-risk customers and optimize marketing strategies. The dashboard highlights revenue distribution across segments, customer mix, and behavioral patterns through bar charts, pie charts, scatterplots, and a heatmap. Python code can be found [here](https://github.com/deedeepratiwi/retail-rfm-analysis/blob/main/rfm_analysis.ipynb).
   
   ![RFM Analysis](images/rfm_analysis.png)
   
 - 📚 **Seattle Public Library Cohort Analysis**
   
-  Analyzes library title retention and longevity through cohort analysis. Instead of focusing on user churn, it tracks how new titles released each month perform over time — identifying when they drop off, which cohorts retain engagement the longest, and how total collection size evolves. Python code can be found [here](https://github.com/deedeepratiwi/seattle-public-library-cohort-analysis/blob/main/seattle_public_library_cohort_analysis.ipynb).
+  Analyzes library title retention and longevity through **cohort analysis**. Instead of focusing on user churn, it tracks how new titles released each month perform over time — identifying when they drop off, which cohorts retain engagement the longest, and how total collection size evolves. Python code can be found [here](https://github.com/deedeepratiwi/seattle-public-library-cohort-analysis/blob/main/seattle_public_library_cohort_analysis.ipynb).
 
   ![SPL Cohort Analysis](images/spl_cohort_analysis.png)
 
 ### 🔩 Data Pipeline
-- 🚧 on progress
+- 🎵 **Spotify Audio Features**
+
+  Analyzed patterns in music characteristics using the Spotify Tracks dataset to understand how audio features such as danceability, energy, and valence evolved across time. The raw CSV data was ingested into PostgreSQL using **Python** and then transformed using **dbt** to create clean, analytics-ready models. **Prefect** was used for workflow orchestration to ensure repeatable data pipelines. The insights were visualized in an interactive **Tableau** dashboard highlighting long-term feature trends and distribution patterns. The entire pipeline was containerized with Docker Compose for reproducible local development, demonstrating end-to-end analytics engineering skills without yet requiring cloud deployment.
   
 ### 🤖 Machine Learning
 - 🏨 **Hotel Booking Cancellation**
