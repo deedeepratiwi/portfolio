@@ -63,16 +63,16 @@ Each project folder includes code, notebooks, and documentation.
   ![Spotify](images/spotify.png)
   
 ### 🤖 Machine Learning
-- 🏨 **Hotel Booking Cancellation**
-  
-  An end-to-end MLOps pipeline that predicts hotel booking cancellations using the Hotel Booking Demand dataset. The project demonstrates the full machine learning lifecycle — from data preprocessing and model training with MLflow tracking, to serving the model via FastAPI, containerizing with Docker, and monitoring performance through Prometheus + Grafana.
-  Python code can be found [here](https://github.com/deedeepratiwi/mlops-hotel-cancellation).
-
 - 🛍️ E-commerce Churn Prediction
   This project focuses on predicting customer churn for an e-commerce platform using structured behavioral and demographic data. I performed exploratory data analysis to understand key churn drivers, trained, and evaluated multiple models (Logistic Regression, Decision Tree, and Random Forest), and selected the best-performing pipeline based on accuracy and interpretability.
 The final model was exported and deployed using **FastAPI**, containerized with **Docker**, and hosted on **Render**. I also integrated **Prometheus** and **Grafana** for real-time monitoring of API performance. To make the model accessible, I built a **Streamlit UI** that allows users to input customer details and receive churn predictions instantly.
 The entire workflow is reproducible, version-controlled, and optimized for cost-effective cloud deployment — demonstrating end-to-end MLOps practices.
   Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-churn-prediction).
+
+- 🏨 **Hotel Booking Cancellation**
+  
+  An end-to-end MLOps pipeline that predicts hotel booking cancellations using the Hotel Booking Demand dataset. The project demonstrates the full machine learning lifecycle — from data preprocessing and model training with MLflow tracking, to serving the model via FastAPI, containerizing with Docker, and monitoring performance through Prometheus + Grafana.
+  Python code can be found [here](https://github.com/deedeepratiwi/mlops-hotel-cancellation).
 
 > 🧾 View all my Python repos [here on GitHub](https://github.com/deedeepratiwi?tab=repositories)
 
