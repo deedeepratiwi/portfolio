@@ -69,7 +69,7 @@ The final model was exported and deployed using **FastAPI**, containerized with 
 The entire workflow is reproducible, version-controlled, and optimized for cost-effective cloud deployment — demonstrating end-to-end MLOps practices.
   Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-churn-prediction).
 
-  ![E-commerce Churn Prediction](images/ecommerce-churn-prediction.png)
+  ![E-commerce Churn Prediction](images/ecommerce-churn-prediction.jpg)
 
 - 🏨 **Hotel Booking Cancellation**
   
