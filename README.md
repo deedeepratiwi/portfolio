@@ -69,6 +69,8 @@ The final model was exported and deployed using **FastAPI**, containerized with 
 The entire workflow is reproducible, version-controlled, and optimized for cost-effective cloud deployment — demonstrating end-to-end MLOps practices.
   Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-churn-prediction).
 
+  ![E-commerce Churn Prediction](images/ecommerce-churn-prediction.png)
+
 - 🏨 **Hotel Booking Cancellation**
   
   An end-to-end MLOps pipeline that predicts hotel booking cancellations using the Hotel Booking Demand dataset. The project demonstrates the full machine learning lifecycle — from data preprocessing and model training with MLflow tracking, to serving the model via FastAPI, containerizing with Docker, and monitoring performance through Prometheus + Grafana.
