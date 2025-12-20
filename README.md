@@ -42,20 +42,26 @@ Each project folder includes code, notebooks, and documentation.
 ### 📈 Analytics
 - 🛒 **Online Retail RFM Analysis**
   
-  Analyzes customer purchasing behavior using **RFM (Recency, Frequency, Monetary)** scoring to identify high-value and at-risk customers and optimize marketing strategies. The dashboard highlights revenue distribution across segments, customer mix, and behavioral patterns through bar charts, pie charts, scatterplots, and a heatmap. Python code can be found [here](https://github.com/deedeepratiwi/retail-rfm-analysis/blob/main/rfm_analysis.ipynb).
+  Analyzes customer purchasing behavior using **RFM (Recency, Frequency, Monetary)** scoring to identify high-value and at-risk customers and optimize marketing strategies. The dashboard             highlights revenue distribution across segments, customer mix, and behavioral patterns through bar charts, pie charts, scatterplots, and a heatmap. 
+  Python code can be found [here](https://github.com/deedeepratiwi/retail-rfm-analysis/blob/main/rfm_analysis.ipynb).
   
   ![RFM Analysis](images/rfm_analysis.png)
   
 - 📚 **Seattle Public Library Cohort Analysis**
   
-  Analyzes library title retention and longevity through **cohort analysis**. Instead of focusing on user churn, it tracks how new titles released each month perform over time — identifying when they drop off, which cohorts retain engagement the longest, and how total collection size evolves. Python code can be found [here](https://github.com/deedeepratiwi/seattle-public-library-cohort-analysis/blob/main/seattle_public_library_cohort_analysis.ipynb).
+  Analyzes library title retention and longevity through **cohort analysis**. Instead of focusing on user churn, it tracks how new titles released each month perform over time — identifying when     they drop off, which cohorts retain engagement the longest, and how total collection size evolves. 
+  Python code can be found [here](https://github.com/deedeepratiwi/seattle-public-library-cohort-analysis/blob/main/seattle_public_library_cohort_analysis.ipynb).
 
   ![SPL Cohort Analysis](images/spl_cohort_analysis.png)
 
 ### 🔩 Data Pipeline
+- 🛍️ **E-Commerce ELT Pipeline (Cloud Data Engineering Project)**
+  
+  Implemented a production-style end-to-end e-commerce analytics pipeline on Google Cloud Platform, integrating Google Cloud Storage, BigQuery, dbt, and Prefect. I engineered automated ingestion     workflows to load raw CSV data into BigQuery, designed dimensional fact and dimension models with dbt, and optimized performance with partitioning and clustering. I also developed data quality     tests and an interactive Looker Studio dashboard to visualize key business metrics such as revenue trends, order behavior, and delivery performance. Infrastructure components were managed with     Terraform for reproducibility and scalability, demonstrating a complete, cloud-native analytics solution from raw data to business insights.
+
 - 🎵 **Spotify Audio Features**
 
-  Analyzed patterns in music characteristics using the Spotify Tracks dataset to understand how audio features such as danceability, energy, and valence evolved across time. The raw CSV data was ingested into PostgreSQL using **Python** and then transformed using **dbt** to create clean, analytics-ready models. **Prefect** was used for workflow orchestration to ensure repeatable data pipelines. The insights were visualized in an interactive **Tableau** dashboard highlighting long-term feature trends and distribution patterns. The entire pipeline was containerized with Docker Compose for reproducible local development, demonstrating end-to-end analytics engineering skills without yet requiring cloud deployment.
+  Analyzed patterns in music characteristics using the Spotify Tracks dataset to understand how audio features such as danceability, energy, and valence evolved across time. The raw CSV data was     ingested into PostgreSQL using **Python** and then transformed using **dbt** to create clean, analytics-ready models. **Prefect** was used for workflow orchestration to ensure repeatable data      pipelines. The insights were visualized in an interactive **Tableau** dashboard highlighting long-term feature trends and distribution patterns. The entire pipeline was containerized with Docker   Compose for reproducible local development, demonstrating end-to-end analytics engineering skills without yet requiring cloud deployment.
   Python code can be found [here](https://github.com/deedeepratiwi/spotify-analysis).
   
   ![Data Pipeline](images/spotify_data_pipeline.jpg)
@@ -64,16 +70,17 @@ Each project folder includes code, notebooks, and documentation.
   
 ### 🤖 Machine Learning
 - 🛍️ E-commerce Churn Prediction
-  This project focuses on predicting customer churn for an e-commerce platform using structured behavioral and demographic data. I performed exploratory data analysis to understand key churn drivers, trained, and evaluated multiple models (Logistic Regression, Decision Tree, and Random Forest), and selected the best-performing pipeline based on accuracy and interpretability.
-The final model was exported and deployed using **FastAPI**, containerized with **Docker**, and hosted on **Render**. I also integrated **Prometheus** and **Grafana** for real-time monitoring of API performance. To make the model accessible, I built a **Streamlit UI** that allows users to input customer details and receive churn predictions instantly.
-The entire workflow is reproducible, version-controlled, and optimized for cost-effective cloud deployment — demonstrating end-to-end MLOps practices.
+  
+  This project focuses on predicting customer churn for an e-commerce platform using structured behavioral and demographic data. I performed exploratory data analysis to understand key churn         drivers, trained, and evaluated multiple models (Logistic Regression, Decision Tree, and Random Forest), and selected the best-performing pipeline based on accuracy and interpretability.
+  The final model was exported and deployed using **FastAPI**, containerized with **Docker**, and hosted on **Render**. I also integrated **Prometheus** and **Grafana** for real-time monitoring of   API performance. To make the model accessible, I built a **Streamlit UI** that allows users to input customer details and receive churn predictions instantly.
+  The entire workflow is reproducible, version-controlled, and optimized for cost-effective cloud deployment — demonstrating end-to-end MLOps practices.
   Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-churn-prediction).
 
   ![E-commerce Churn Prediction](images/ecommerce-churn-prediction.jpg)
 
 - 🏨 **Hotel Booking Cancellation**
   
-  An end-to-end MLOps pipeline that predicts hotel booking cancellations using the Hotel Booking Demand dataset. The project demonstrates the full machine learning lifecycle — from data preprocessing and model training with MLflow tracking, to serving the model via FastAPI, containerizing with Docker, and monitoring performance through Prometheus + Grafana.
+  An end-to-end MLOps pipeline that predicts hotel booking cancellations using the Hotel Booking Demand dataset. The project demonstrates the full machine learning lifecycle — from data              preprocessing and model training with MLflow tracking, to serving the model via FastAPI, containerizing with Docker, and monitoring performance through Prometheus + Grafana.
   Python code can be found [here](https://github.com/deedeepratiwi/mlops-hotel-cancellation).
 
 > 🧾 View all my Python repos [here on GitHub](https://github.com/deedeepratiwi?tab=repositories)
@@ -88,7 +95,7 @@ Interactive data visualizations and dashboards published on Tableau Public.
 
 - 🌋 **Indonesia Ring of Fire**
   
-  Visualizes the distribution and characteristics of Indonesia’s volcanoes — part of the Pacific “Ring of Fire”. Data was collected through a custom Python web scraper from Wikipedia, then cleaned in Microsoft Excel. Python code for web scraping can be found [here](https://github.com/deedeepratiwi/web-scraping-indonesia-volcano/blob/main/Web_Scraping_Indonesia_Volcano.ipynb).
+  Visualizes the distribution and characteristics of Indonesia’s volcanoes — part of the Pacific “Ring of Fire”. Data was collected through a custom Python web scraper from Wikipedia, then cleaned   in Microsoft Excel. Python code for web scraping can be found [here](https://github.com/deedeepratiwi/web-scraping-indonesia-volcano/blob/main/Web_Scraping_Indonesia_Volcano.ipynb).
   
   ![Indonesia Ring of Fire](images/ring_of_fire.png)
   
@@ -100,7 +107,7 @@ Interactive data visualizations and dashboards published on Tableau Public.
   
 - 🦠 **Covid-19**
   
-  Visualized Indonesian COVID-19 active, recovered, and deaths cases based on [Kaggle](https://www.kaggle.com/datasets/hendratno/covid19-indonesia) dataset to see the spread of the disease overtime on every provinces.
+  Visualized Indonesian COVID-19 active, recovered, and deaths cases based on [Kaggle](https://www.kaggle.com/datasets/hendratno/covid19-indonesia) dataset to see the spread of the disease           overtime on every provinces.
   
   ![Covid-19](images/covid-19.png)
   
