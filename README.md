@@ -55,16 +55,18 @@ Each project folder includes code, notebooks, and documentation.
   ![SPL Cohort Analysis](images/spl_cohort_analysis.png)
 
 ### 🔩 Data Pipeline
-- 🛍️ **E-Commerce ELT Pipeline (Cloud Data Engineering Project)**
+- 🛍️ **E-Commerce Analytics Pipeline (Prefect + dbt + BigQuery)**
   
   Implemented a production-style end-to-end e-commerce analytics pipeline on Google Cloud Platform, integrating Google Cloud Storage, BigQuery, dbt, and Prefect. I engineered automated ingestion     workflows to load raw CSV data into BigQuery, designed dimensional fact and dimension models with dbt, and optimized performance with partitioning and clustering. I also developed data quality     tests and an interactive Looker Studio dashboard to visualize key business metrics such as revenue trends, order behavior, and delivery performance. Infrastructure components were managed with     Terraform for reproducibility and scalability, demonstrating a complete, cloud-native analytics solution from raw data to business insights.
+
+  ![Ecommerce Order Pipeline](images/ecommerce-order-pipeline.png)
 
 - 🎵 **Spotify Audio Features**
 
   Analyzed patterns in music characteristics using the Spotify Tracks dataset to understand how audio features such as danceability, energy, and valence evolved across time. The raw CSV data was     ingested into PostgreSQL using **Python** and then transformed using **dbt** to create clean, analytics-ready models. **Prefect** was used for workflow orchestration to ensure repeatable data      pipelines. The insights were visualized in an interactive **Tableau** dashboard highlighting long-term feature trends and distribution patterns. The entire pipeline was containerized with Docker   Compose for reproducible local development, demonstrating end-to-end analytics engineering skills without yet requiring cloud deployment.
   Python code can be found [here](https://github.com/deedeepratiwi/spotify-analysis).
   
-  ![Data Pipeline](images/spotify_data_pipeline.jpg)
+  ![Spotify Data Pipeline](images/spotify_data_pipeline.jpg)
   
   ![Spotify](images/spotify.png)
   
