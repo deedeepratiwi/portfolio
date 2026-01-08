@@ -80,6 +80,11 @@ Each project folder includes code, notebooks, and documentation.
 
   ![E-commerce Churn Prediction](images/ecommerce-churn-prediction.jpg)
 
+- 🦉 Customer Lifetime Value (CLV) Prediction
+  This project implements a production-grade machine learning pipeline to predict 6-month Customer Lifetime Value (CLV) using historical retail transaction data. It covers the full ML lifecycle,     including leakage-safe feature engineering, model training and experiment tracking with MLflow, and model versioning via a registry. The trained model is served through a containerized FastAPI     application deployed on Google Cloud Run, with automated retraining orchestrated using Prefect. Production monitoring is implemented with Prometheus and Grafana to track request volume, latency,   and service health, providing an end-to-end, reproducible MLOps workflow aligned with real-world industry practices.
+
+  ![CLV Prediction](images/clv-prediction.jpg)
+  
 - 🏨 **Hotel Booking Cancellation**
   
   An end-to-end MLOps pipeline that predicts hotel booking cancellations using the Hotel Booking Demand dataset. The project demonstrates the full machine learning lifecycle — from data              preprocessing and model training with MLflow tracking, to serving the model via FastAPI, containerizing with Docker, and monitoring performance through Prometheus + Grafana.
