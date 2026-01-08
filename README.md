@@ -61,6 +61,7 @@ Each project folder includes code, notebooks, and documentation.
 - 🛍️ **E-Commerce Analytics Pipeline (Prefect + dbt + BigQuery)**
   
   Implemented a production-style end-to-end e-commerce analytics pipeline on Google Cloud Platform, integrating Google Cloud Storage, BigQuery, dbt, and Prefect. I engineered automated ingestion     workflows to load raw CSV data into BigQuery, designed dimensional fact and dimension models with dbt, and optimized performance with partitioning and clustering. I also developed data quality     tests and an interactive Looker Studio dashboard to visualize key business metrics such as revenue trends, order behavior, and delivery performance. Infrastructure components were managed with     Terraform for reproducibility and scalability, demonstrating a complete, cloud-native analytics solution from raw data to business insights.
+  
   Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-order-pipeline).
 
   ![Ecommerce Order Pipeline](images/ecommerce-order-pipeline.png)
@@ -81,6 +82,7 @@ Each project folder includes code, notebooks, and documentation.
   This project focuses on predicting customer churn for an e-commerce platform using structured behavioral and demographic data. I performed exploratory data analysis to understand key churn         drivers, trained, and evaluated multiple models (Logistic Regression, Decision Tree, and Random Forest), and selected the best-performing pipeline based on accuracy and interpretability.
   The final model was exported and deployed using **FastAPI**, containerized with **Docker**, and hosted on **Render**. I also integrated **Prometheus** and **Grafana** for real-time monitoring of   API performance. To make the model accessible, I built a **Streamlit UI** that allows users to input customer details and receive churn predictions instantly.
   The entire workflow is reproducible, version-controlled, and optimized for cost-effective cloud deployment — demonstrating end-to-end MLOps practices.
+  
   Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-churn-prediction).
 
   ![E-commerce Churn Prediction](images/ecommerce-churn-prediction.jpg)
@@ -91,7 +93,7 @@ Each project folder includes code, notebooks, and documentation.
   
   Python code can be found [here](https://github.com/deedeepratiwi/clv-prediction).
 
-  ![CLV Prediction](images/clv-prediction.jpg)
+  ![CLV Prediction](images/clv-prediction.png)
   
 - 🏨 **Hotel Booking Cancellation**
   
