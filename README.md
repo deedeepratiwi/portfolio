@@ -6,10 +6,87 @@ My work spans **SQL analytics**, **Python data projects**, and **interactive das
 ---
 
 ## 🗂️ Table of Contents
-1. [SQL Analytics](#-sql-analytics)
-2. [Python Projects](#-python-projects)
-3. [Dashboards](#-dashboards)
-4. [Contact](#-contact)
+1. [Data Analytics Projects](#-data-analytics-projects)
+2. [Data Engineering Projects](#-data-engineering-projects)
+3. [Machine Learning Projects](#-machine-learning-projects)
+4. [SQL Analytics](#-sql-analytics)
+5. [Dashboards](#-dashboards)
+6. [Contact](#-contact)
+
+---
+
+## 📈 Data Analytics Projects
+### 🛒 **Online Retail RFM Analysis**
+  
+  Analyzes customer purchasing behavior using **RFM (Recency, Frequency, Monetary)** scoring to identify high-value and at-risk customers and optimize marketing strategies. The dashboard highlights revenue distribution across segments, customer mix, and behavioral patterns through bar charts, pie charts, scatterplots, and a heatmap.
+  
+  Python code can be found [here](https://github.com/deedeepratiwi/retail-rfm-analysis/blob/main/rfm_analysis.ipynb).
+  
+  ![RFM Analysis](images/rfm_analysis.png)
+
+  
+### 📚 **Seattle Public Library Cohort Analysis**
+  
+  Analyzes library title retention and longevity through **cohort analysis**. Instead of focusing on user churn, it tracks how new titles released each month perform over time — identifying when they drop off, which cohorts retain engagement the longest, and how total collection size evolves.
+  
+  Python code can be found [here](https://github.com/deedeepratiwi/seattle-public-library-cohort-analysis/blob/main/seattle_public_library_cohort_analysis.ipynb).
+
+  ![SPL Cohort Analysis](images/spl_cohort_analysis.png)
+
+---
+
+## 🔩 Data Engineering Projects
+### 🛍️ **E-Commerce Analytics Pipeline (Prefect + dbt + BigQuery)**
+  
+  Implemented a production-style end-to-end e-commerce analytics pipeline on Google Cloud Platform, integrating Google Cloud Storage, BigQuery, dbt, and Prefect. I engineered automated ingestion     workflows to load raw CSV data into BigQuery, designed dimensional fact and dimension models with dbt, and optimized performance with partitioning and clustering. I also developed data quality     tests and an interactive Looker Studio dashboard to visualize key business metrics such as revenue trends, order behavior, and delivery performance. Infrastructure components were managed with     Terraform for reproducibility and scalability, demonstrating a complete, cloud-native analytics solution from raw data to business insights.
+  
+  Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-order-pipeline).
+
+  ![Ecommerce Order Pipeline](images/ecommerce-order-pipeline.png)
+
+
+### 🎵 **Spotify Audio Features**
+
+  Analyzed patterns in music characteristics using the Spotify Tracks dataset to understand how audio features such as danceability, energy, and valence evolved across time. The raw CSV data was     ingested into PostgreSQL using **Python** and then transformed using **dbt** to create clean, analytics-ready models. **Prefect** was used for workflow orchestration to ensure repeatable data      pipelines. The insights were visualized in an interactive **Tableau** dashboard highlighting long-term feature trends and distribution patterns. The entire pipeline was containerized with Docker   Compose for reproducible local development, demonstrating end-to-end analytics engineering skills without yet requiring cloud deployment.
+  
+  Python code can be found [here](https://github.com/deedeepratiwi/spotify-analysis).
+  
+  ![Spotify Data Pipeline](images/spotify_data_pipeline.jpg)
+  
+  ![Spotify](images/spotify.png)
+
+---
+
+## 🤖 Machine Learning Projects
+### 🛍️ E-commerce Churn Prediction
+  
+  This project focuses on predicting customer churn for an e-commerce platform using structured behavioral and demographic data. I performed exploratory data analysis to understand key churn         drivers, trained, and evaluated multiple models (Logistic Regression, Decision Tree, and Random Forest), and selected the best-performing pipeline based on accuracy and interpretability.
+  The final model was exported and deployed using **FastAPI**, containerized with **Docker**, and hosted on **Render**. I also integrated **Prometheus** and **Grafana** for real-time monitoring of   API performance. To make the model accessible, I built a **Streamlit UI** that allows users to input customer details and receive churn predictions instantly.
+  The entire workflow is reproducible, version-controlled, and optimized for cost-effective cloud deployment — demonstrating end-to-end MLOps practices.
+  
+  Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-churn-prediction).
+
+  ![E-commerce Churn Prediction](images/ecommerce-churn-prediction.jpg)
+
+
+### 🦉 Customer Lifetime Value (CLV) Prediction
+  
+  This project implements a production-grade machine learning pipeline to predict 6-month Customer Lifetime Value (CLV) using historical retail transaction data. It covers the full ML lifecycle,     including leakage-safe feature engineering, model training and experiment tracking with MLflow, and model versioning via a registry. The trained model is served through a containerized FastAPI     application deployed on Google Cloud Run, with automated retraining orchestrated using Prefect. Production monitoring is implemented with Prometheus and Grafana to track request volume, latency,   and service health, providing an end-to-end, reproducible MLOps workflow aligned with real-world industry practices.
+  
+  Python code can be found [here](https://github.com/deedeepratiwi/clv-prediction).
+
+  ![CLV Prediction](images/clv-prediction.png)
+
+  
+### 🏨 **Hotel Booking Cancellation**
+  
+  An end-to-end MLOps pipeline that predicts hotel booking cancellations using the Hotel Booking Demand dataset. The project demonstrates the full machine learning lifecycle — from data              preprocessing and model training with MLflow tracking, to serving the model via FastAPI, containerizing with Docker, and monitoring performance through Prometheus + Grafana.
+  
+  Python code can be found [here](https://github.com/deedeepratiwi/mlops-hotel-cancellation).
+
+> 🧾 View all my Python repos [here on GitHub](https://github.com/deedeepratiwi?tab=repositories)
+
+🔝[Back to top](#-table-of-contents)
 
 ---
 
@@ -34,100 +111,27 @@ Practical SQL case studies from the [8-Week SQL Challenge](https://8weeksqlchall
 
 ---
 
-## 🐍 Python Projects
-
-End-to-end data projects covering analytics, data pipeline, and machine learning including MLOps workflows.  
-
-Each project folder includes code, notebooks, and documentation.
-
-### 📈 Analytics
-- 🛒 **Online Retail RFM Analysis**
-  
-  Analyzes customer purchasing behavior using **RFM (Recency, Frequency, Monetary)** scoring to identify high-value and at-risk customers and optimize marketing strategies. The dashboard             highlights revenue distribution across segments, customer mix, and behavioral patterns through bar charts, pie charts, scatterplots, and a heatmap.
-  
-  Python code can be found [here](https://github.com/deedeepratiwi/retail-rfm-analysis/blob/main/rfm_analysis.ipynb).
-  
-  ![RFM Analysis](images/rfm_analysis.png)
-  
-- 📚 **Seattle Public Library Cohort Analysis**
-  
-  Analyzes library title retention and longevity through **cohort analysis**. Instead of focusing on user churn, it tracks how new titles released each month perform over time — identifying when     they drop off, which cohorts retain engagement the longest, and how total collection size evolves.
-  
-  Python code can be found [here](https://github.com/deedeepratiwi/seattle-public-library-cohort-analysis/blob/main/seattle_public_library_cohort_analysis.ipynb).
-
-  ![SPL Cohort Analysis](images/spl_cohort_analysis.png)
-
-### 🔩 Data Pipeline
-- 🛍️ **E-Commerce Analytics Pipeline (Prefect + dbt + BigQuery)**
-  
-  Implemented a production-style end-to-end e-commerce analytics pipeline on Google Cloud Platform, integrating Google Cloud Storage, BigQuery, dbt, and Prefect. I engineered automated ingestion     workflows to load raw CSV data into BigQuery, designed dimensional fact and dimension models with dbt, and optimized performance with partitioning and clustering. I also developed data quality     tests and an interactive Looker Studio dashboard to visualize key business metrics such as revenue trends, order behavior, and delivery performance. Infrastructure components were managed with     Terraform for reproducibility and scalability, demonstrating a complete, cloud-native analytics solution from raw data to business insights.
-  
-  Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-order-pipeline).
-
-  ![Ecommerce Order Pipeline](images/ecommerce-order-pipeline.png)
-
-- 🎵 **Spotify Audio Features**
-
-  Analyzed patterns in music characteristics using the Spotify Tracks dataset to understand how audio features such as danceability, energy, and valence evolved across time. The raw CSV data was     ingested into PostgreSQL using **Python** and then transformed using **dbt** to create clean, analytics-ready models. **Prefect** was used for workflow orchestration to ensure repeatable data      pipelines. The insights were visualized in an interactive **Tableau** dashboard highlighting long-term feature trends and distribution patterns. The entire pipeline was containerized with Docker   Compose for reproducible local development, demonstrating end-to-end analytics engineering skills without yet requiring cloud deployment.
-  
-  Python code can be found [here](https://github.com/deedeepratiwi/spotify-analysis).
-  
-  ![Spotify Data Pipeline](images/spotify_data_pipeline.jpg)
-  
-  ![Spotify](images/spotify.png)
-  
-### 🤖 Machine Learning
-- 🛍️ E-commerce Churn Prediction
-  
-  This project focuses on predicting customer churn for an e-commerce platform using structured behavioral and demographic data. I performed exploratory data analysis to understand key churn         drivers, trained, and evaluated multiple models (Logistic Regression, Decision Tree, and Random Forest), and selected the best-performing pipeline based on accuracy and interpretability.
-  The final model was exported and deployed using **FastAPI**, containerized with **Docker**, and hosted on **Render**. I also integrated **Prometheus** and **Grafana** for real-time monitoring of   API performance. To make the model accessible, I built a **Streamlit UI** that allows users to input customer details and receive churn predictions instantly.
-  The entire workflow is reproducible, version-controlled, and optimized for cost-effective cloud deployment — demonstrating end-to-end MLOps practices.
-  
-  Python code can be found [here](https://github.com/deedeepratiwi/ecommerce-churn-prediction).
-
-  ![E-commerce Churn Prediction](images/ecommerce-churn-prediction.jpg)
-
-- 🦉 Customer Lifetime Value (CLV) Prediction
-  
-  This project implements a production-grade machine learning pipeline to predict 6-month Customer Lifetime Value (CLV) using historical retail transaction data. It covers the full ML lifecycle,     including leakage-safe feature engineering, model training and experiment tracking with MLflow, and model versioning via a registry. The trained model is served through a containerized FastAPI     application deployed on Google Cloud Run, with automated retraining orchestrated using Prefect. Production monitoring is implemented with Prometheus and Grafana to track request volume, latency,   and service health, providing an end-to-end, reproducible MLOps workflow aligned with real-world industry practices.
-  
-  Python code can be found [here](https://github.com/deedeepratiwi/clv-prediction).
-
-  ![CLV Prediction](images/clv-prediction.png)
-  
-- 🏨 **Hotel Booking Cancellation**
-  
-  An end-to-end MLOps pipeline that predicts hotel booking cancellations using the Hotel Booking Demand dataset. The project demonstrates the full machine learning lifecycle — from data              preprocessing and model training with MLflow tracking, to serving the model via FastAPI, containerizing with Docker, and monitoring performance through Prometheus + Grafana.
-  
-  Python code can be found [here](https://github.com/deedeepratiwi/mlops-hotel-cancellation).
-
-> 🧾 View all my Python repos [here on GitHub](https://github.com/deedeepratiwi?tab=repositories)
-
-🔝[Back to top](#-table-of-contents)
-
----
-
 ## 📈 Dashboards
 
 Interactive data visualizations and dashboards published on Tableau Public.
 
-- 🌋 **Indonesia Ring of Fire**
+### 🌋 **Indonesia Ring of Fire**
   
-  Visualizes the distribution and characteristics of Indonesia’s volcanoes — part of the Pacific “Ring of Fire”. Data was collected through a custom Python web scraper from Wikipedia, then cleaned   in Microsoft Excel.
+  Visualizes the distribution and characteristics of Indonesia’s volcanoes — part of the Pacific “Ring of Fire”. Data was collected through a custom Python web scraper from Wikipedia, then cleaned in Microsoft Excel.
 
   Python code for web scraping can be found [here](https://github.com/deedeepratiwi/web-scraping-indonesia-volcano/blob/main/Web_Scraping_Indonesia_Volcano.ipynb).
   
   ![Indonesia Ring of Fire](images/ring_of_fire.png)
   
-- 🛰️ **Maven Telecom Customer Churn Analysis**
+### 🛰️ **Maven Telecom Customer Churn Analysis**
   
   Examined telecom customer churn drivers by contract type, tenure, and service features to identify key retention opportunities and improve subscription longevity.
   
   ![Maven Telecom Customer Churn Analysis](images/telco_churn.png)
   
-- 🦠 **Covid-19**
+### 🦠 **Covid-19**
   
-  Visualized Indonesian COVID-19 active, recovered, and deaths cases based on [Kaggle](https://www.kaggle.com/datasets/hendratno/covid19-indonesia) dataset to see the spread of the disease           overtime on every provinces.
+  Visualized Indonesian COVID-19 active, recovered, and deaths cases based on [Kaggle](https://www.kaggle.com/datasets/hendratno/covid19-indonesia) dataset to see the spread of the disease overtime on every provinces.
   
   ![Covid-19](images/covid-19.png)
   
