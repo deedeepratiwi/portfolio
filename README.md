@@ -1,4 +1,4 @@
-# 📊 Diana Pratiwi — Data Analyst Portfolio
+# 📊 Diana Pratiwi — Data & AI Portfolio
 
 Hi! I’m **Diana**, a data analyst who combines strong technical skills with business insight to turn data into actionable decisions.  
 My work spans **SQL analytics**, **Python data projects**, and **interactive dashboards**, reflecting both my technical depth and practical storytelling ability.
